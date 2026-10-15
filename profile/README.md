@@ -35,7 +35,7 @@ We work with state and local governments: city halls, county IT shops, state age
 - **The methodology and the code change in the same commit.** When they disagree, one of them is wrong, and we fix it that day.
 - **Claude Code does most of the typing.** We describe the whole thing in plain language and ask for all of it. What comes back is better than we asked for, not what we asked for at all, or something that looks right and isn't. Telling those apart is the job.
 
-## More from our partners' workshops
+## More from the 17A team
 
 | | |
 |---|---|
@@ -46,6 +46,6 @@ We work with state and local governments: city halls, county IT shops, state age
 
 ## Where the work lives
 
-Most of what we ship sits in private client repositories, where it will stay. The public repositories are here. Some of our partners keep their own workshops: Joe Eichenbaum's is at [gizmowarehouse.org](https://gizmowarehouse.org), where the music theory and the Talmud also live. A repository here that says it is in field test is still being built, and its README will tell you how much to trust it.
+Most of what we ship sits in private client repositories, where it will stay. The public repositories are here. Some of the team keep their own workshops: Joe Eichenbaum's is at [gizmowarehouse.org](https://gizmowarehouse.org), where the music theory and the Talmud also live. A repository here that says it is in field test is still being built, and its README will tell you how much to trust it.
 
 If you work in or around government and something here would help, write to [letsgo@group17a.com](mailto:letsgo@group17a.com). Better government is worth the effort, and it is more fun with company.
