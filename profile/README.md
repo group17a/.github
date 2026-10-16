@@ -27,13 +27,31 @@ We work with state and local governments: city halls, county IT shops, state age
   </tr>
 </table>
 
+## What we do
+
+State agencies, city and county governments, and the nonprofits and funders that work alongside them hire us for one of five things: deciding what to build when nobody can yet say what it is, building it next to the team that will own it, getting an agency something useful out of AI, redesigning a process that has outgrown its org chart, and leaving a team able to keep going after we leave. Some of what that has looked like:
+
+- **Public safety.** A cross-agency, place-based violence reduction effort in Dallas: incident-level data on a half-mile grid, environmental interventions at the places where violence concentrates, and coordination across departments instead of new budget, new staff, or more arrests. Violent crime fell 8 percent in the intervention areas while comparable areas held flat. The white paper above is the long version.
+- **Health.** Technical lead on a multi-year state-based health insurance exchange launch. A data automation strategy for a state Medicaid program, so that the new work requirements cost as few eligible people their coverage as possible.
+- **Shared services.** Triage and modernization of a large transit agency's inbound workers' compensation claims. The new process saved more than $20 million in its first year.
+- **Economic mobility.** A state tax credit for lower- and moderate-income renters, one of the larger ones in the country. Benefits-cliff fixes in TANF, child care assistance, and the ACA marketplace.
+- **Data and technology.** Crime, 311, eviction, and child-poverty explorers for cities and the organizations that watch them, built from NIBRS incident data, open data portals, and Census microdata, with the numbers checked against the source rows before anyone sees a map. Council-district briefings generated from the same pipelines. AI rollouts for agencies and partner organizations, from the ninety-day plan above to standing in as the technical lead while a team hires its own.
+
+## What we build with
+
+- **Python** (pandas, geopandas, matplotlib) for analysis, and Jupyter while we are still thinking.
+- **React, TypeScript, and MapLibre** for anything with a map. Lovable when we want a front end this afternoon.
+- **Supabase** for sign-in and the data that cannot be public. **Cloudflare** Pages, Workers, and R2 for anything that should stay cheap and fast forever.
+- **Claude Code** does most of the typing. We describe the whole thing in plain language and ask for all of it. What comes back is better than we asked for, not what we asked for at all, or something that looks right and isn't. Telling those apart is the job. Codex when we want a second opinion that did not write the first draft.
+- **PowerPoint, Word, and PDF**, generated from the 17A templates, for the people who will never open GitHub. That is most of them.
+
 ## How we work
 
-- **The reader is a council member at 9 pm.** They get the conclusion on page one and the method in the appendix. Nothing that needs a glossary.
+- **The reader of every report and briefing is a council member at 9 pm.** They get the conclusion on page one and the method in the appendix. Nothing that needs a glossary.
 - **Every number has a receipt.** If we cannot trace a figure back to its source, the page says so instead of rounding it off.
 - **The code makes the call. The model does the reading.** When a tool reaches a conclusion, plain code computes it from typed data. Models search and draft. Nothing pasted into an input can change the outcome, and we keep a test suite that tries.
 - **The methodology and the code change in the same commit.** When they disagree, one of them is wrong, and we fix it that day.
-- **Claude Code does most of the typing.** We describe the whole thing in plain language and ask for all of it. What comes back is better than we asked for, not what we asked for at all, or something that looks right and isn't. Telling those apart is the job.
+- **Done means seen.** The live URL after the publish, the rendered PDF, the generated document opened and read. A green build is where checking starts.
 
 ## More from the 17A team
 
