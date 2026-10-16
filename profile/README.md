@@ -29,13 +29,9 @@ We work with state and local governments: city halls, county IT shops, state age
 
 ## What we do
 
-State agencies, city and county governments, and the nonprofits and funders that work alongside them hire us for one of five things: deciding what to build when nobody can yet say what it is, building it next to the team that will own it, getting an agency something useful out of AI, redesigning a process that has outgrown its org chart, and leaving a team able to keep going after we leave. Some of what that has looked like:
+We are a consulting firm, not a software company. Governments and the organizations around them hire us to make programs and operations work better for the people they serve: strategy when the shape of the answer is still unclear, design and implementation next to the team that will own the result, help getting something useful out of new technology, and the capacity to keep improving after we leave.
 
-- **Public safety.** A cross-agency, place-based violence reduction effort in Dallas: incident-level data on a half-mile grid, environmental interventions at the places where violence concentrates, and coordination across departments instead of new budget, new staff, or more arrests. Violent crime fell 8 percent in the intervention areas while comparable areas held flat. The white paper above is the long version.
-- **Health.** Technical lead on a multi-year state-based health insurance exchange launch. A data automation strategy for a state Medicaid program, so that the new work requirements cost as few eligible people their coverage as possible.
-- **Shared services.** Triage and modernization of a large transit agency's inbound workers' compensation claims. The new process saved more than $20 million in its first year.
-- **Economic mobility.** A state tax credit for lower- and moderate-income renters, one of the larger ones in the country. Benefits-cliff fixes in TANF, child care assistance, and the ACA marketplace.
-- **Data and technology.** Crime, 311, eviction, and child-poverty explorers for cities and the organizations that watch them, built from NIBRS incident data, open data portals, and Census microdata, with the numbers checked against the source rows before anyone sees a map. Council-district briefings generated from the same pipelines. AI rollouts for agencies and partner organizations, from the ninety-day plan above to standing in as the technical lead while a team hires its own.
+Not every problem is a software problem. Many of the ones we care about involve software, and sometimes the right move is to write it ourselves. This page is where that part of the work lives.
 
 ## What we build with
 
@@ -47,9 +43,9 @@ State agencies, city and county governments, and the nonprofits and funders that
 
 ## How we work
 
-- **The reader of every report and briefing is a council member at 9 pm.** They get the conclusion on page one and the method in the appendix. Nothing that needs a glossary.
+- **One size fits one.** A council member, a state CIO, and a security team do not want the same report, so they do not get the same report. Each reader gets the version written for them: the conclusion first for the person deciding, the method and the data for the person checking.
+- **People decide. We make the deciding easier.** We do not build tools that let a model make the call, and we rarely let code make it either. The work is getting the best available data in front of the person who has to decide, in the form they can read fastest.
 - **Every number has a receipt.** If we cannot trace a figure back to its source, the page says so instead of rounding it off.
-- **The code makes the call. The model does the reading.** When a tool reaches a conclusion, plain code computes it from typed data. Models search and draft. Nothing pasted into an input can change the outcome, and we keep a test suite that tries.
 - **The methodology and the code change in the same commit.** When they disagree, one of them is wrong, and we fix it that day.
 - **Done means seen.** The live URL after the publish, the rendered PDF, the generated document opened and read. A green build is where checking starts.
 
