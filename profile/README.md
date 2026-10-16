@@ -43,11 +43,11 @@ Not every problem is a software problem. Many of the ones we care about involve 
 
 ## How we work
 
+- **We sit on the client's side of the table.** Our people work inside the agency, in the same meetings and on the same deadlines as the people who own the program. What we are measured on is what is different for residents a year later, which is rarely what got presented.
 - **One size fits one.** A council member, a state CIO, and a security team do not want the same report, so they do not get the same report. Each reader gets the version written for them: the conclusion first for the person deciding, the method and the data for the person checking.
 - **People decide. We make the deciding easier.** We do not build tools that let a model make the call, and we rarely let code make it either. The work is getting the best available data in front of the person who has to decide, in the form they can read fastest.
 - **Every number has a receipt.** If we cannot trace a figure back to its source, the page says so instead of rounding it off.
 - **The methodology and the code change in the same commit.** When they disagree, one of them is wrong, and we fix it that day.
-- **Done means seen.** The live URL after the publish, the rendered PDF, the generated document opened and read. A green build is where checking starts.
 
 ## More from the 17A team
 
